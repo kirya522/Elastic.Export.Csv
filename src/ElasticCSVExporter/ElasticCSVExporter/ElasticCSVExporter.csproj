@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Authors>Kirill Grishchuk</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ChoETL.JSON" Version="1.1.0.4" />
+      <PackageReference Include="Elasticsearch.Net" Version="7.2.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    </ItemGroup>
+
+</Project>
